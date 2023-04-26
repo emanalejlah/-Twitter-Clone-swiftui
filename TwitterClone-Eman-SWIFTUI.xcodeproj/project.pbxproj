@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B693C20B29F9ABEB00480794 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = B693C20A29F9ABEB00480794 /* ChatBubble.swift */; };
+		B693C20D29F9B6EE00480794 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B693C20C29F9B6EE00480794 /* Message.swift */; };
 		B6FF8BD929F5670900542390 /* TwitterClone_Eman_SWIFTUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF8BD829F5670900542390 /* TwitterClone_Eman_SWIFTUIApp.swift */; };
 		B6FF8BDB29F5670900542390 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FF8BDA29F5670900542390 /* ContentView.swift */; };
 		B6FF8BDD29F5670A00542390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FF8BDC29F5670A00542390 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B693C20A29F9ABEB00480794 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		B693C20C29F9B6EE00480794 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B6FF8BD529F5670900542390 /* TwitterClone-Eman-SWIFTUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TwitterClone-Eman-SWIFTUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF8BD829F5670900542390 /* TwitterClone_Eman_SWIFTUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterClone_Eman_SWIFTUIApp.swift; sourceTree = "<group>"; };
 		B6FF8BDA29F5670900542390 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 		B6FF8C0529F56F2800542390 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B693C20C29F9B6EE00480794 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				B6FF8C1329F5D68300542390 /* ConversatiionCell.swift */,
 				B6FF8C1529F5E45500542390 /* MessageinputView.swift */,
 				B6FF8C1729F5E5EB00542390 /* ChatView.swift */,
+				B693C20A29F9ABEB00480794 /* ChatBubble.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -323,7 +329,9 @@
 				B6FF8C1829F5E5EB00542390 /* ChatView.swift in Sources */,
 				B6FF8C1429F5D68300542390 /* ConversatiionCell.swift in Sources */,
 				B6FF8C1229F5D62A00542390 /* ConversationsView.swift in Sources */,
+				B693C20B29F9ABEB00480794 /* ChatBubble.swift in Sources */,
 				B6FF8BD929F5670900542390 /* TwitterClone_Eman_SWIFTUIApp.swift in Sources */,
+				B693C20D29F9B6EE00480794 /* Message.swift in Sources */,
 				B6FF8C0929F5765900542390 /* TweetCell.swift in Sources */,
 				B6FF8C0D29F5C30D00542390 /* SearchBar.swift in Sources */,
 				B6FF8C0F29F5C97B00542390 /* UserCell.swift in Sources */,
